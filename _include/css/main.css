@@ -74,6 +74,15 @@ h3 {
 	margin-right: 25px;
 }
 
+#approval {
+	margin-left: 15px;
+}
+
+.leftborder{
+	border-left: 2px #339999 solid;
+	padding-left: 10px;
+}
+
 html, body {
 	height: 100%;
 }
@@ -883,6 +892,7 @@ nav#menu #menu-nav li a:hover {
 	display: block;
 	width: 100%;
 	height: 100%;
+	margin-left: 0;
 	
 	opacity: 0;
 	filter: alpha(opacity=0);
