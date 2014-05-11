@@ -16,6 +16,8 @@ Version: 1.0
 	margin-left: auto;
 	margin-right: auto;
 	width:300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #register {
@@ -24,6 +26,53 @@ Version: 1.0
 
 }
 
+#markinterested {
+	background-color: black;
+	height: 350px;
+	margin-left: 15px;
+	border-radius: 20px;
+}
+
+#projectimg {
+	margin: 10px 10px 10px 10px;
+}
+
+#projecttitle img, h4 {
+	display: inline-block;
+	margin-left: -20px;
+}
+
+#project2 {
+	margin-top: 50px;
+}
+
+#page2container {
+	margin-left: 75px;
+}
+
+.span4 div {
+	margin-left: 30px;
+}
+
+#rewards {
+/*	border-left: 2px #339999 solid;
+	padding-left: 10px;*/
+	margin-top: 20px;
+}
+
+p {
+	border-left: 2px #339999 solid;
+	padding-left: 10px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+#interested {
+	float:right;
+	margin-right: 25px;
+}
 
 html, body {
 	height: 100%;
@@ -82,7 +131,7 @@ strong {
 }
 
 p {
-	margin: 0 0 30px;
+	margin: 0 0 5px;
 }
 
 hr {
@@ -223,7 +272,7 @@ h3,
 h4,
 h5,
 h6{
-	margin:0 0 20px 0;
+	margin:0 0 10px 0;
 	color:#FFFFFF;
 	font-weight:300;
 	font-family: 'Open Sans', sans-serif;
@@ -352,7 +401,7 @@ h3.spec {
 
 #home-slider .container .row {
 	position: absolute;
-	bottom: 100px;
+/*	bottom: 100px;*/
 }
 
 #home-slider .slider-text {
@@ -544,7 +593,7 @@ header #logo {
 }
 
 header #logo a {
-	background: url(../img/logo.png) no-repeat;
+	background: url(../img/logo1.png) no-repeat;
 	width: 130px;
 	height: 50px;
 	text-indent: -9999px;
@@ -595,6 +644,7 @@ nav#menu #menu-nav li a {
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
 	color: white;
+	text-decoration: underline;
 }
 
 
