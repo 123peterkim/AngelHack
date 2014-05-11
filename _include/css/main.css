@@ -54,6 +54,10 @@ Version: 1.0
 	margin-left: 30px;
 }
 
+.span4 .image-wrap {
+	margin-left: 0px;
+}
+
 #rewards {
 /*	border-left: 2px #339999 solid;
 	padding-left: 10px;*/
@@ -81,6 +85,10 @@ h3 {
 .leftborder{
 	border-left: 2px #339999 solid;
 	padding-left: 10px;
+}
+
+#submitbutton {
+	float: right;
 }
 
 html, body {
